@@ -28,7 +28,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.fitnessapp"
     },
     "android": {
       "adaptiveIcon": {
@@ -36,6 +37,20 @@
         "backgroundColor": "#ffffff"
       },
       "package": "com.anonymous.fitnessapp"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "1859b117-3ac2-4da0-94a6-40506b6a1f8a"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/1859b117-3ac2-4da0-94a6-40506b6a1f8a"
     }
   }
 }
